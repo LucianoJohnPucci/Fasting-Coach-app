@@ -1,0 +1,35 @@
+/* Settings.css */
+.settings-container {
+  max-width: 480px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.settings-form label, .settings-form fieldset {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+.settings-form select, .settings-form input[type="text"] {
+  margin-left: 10px;
+  padding: 4px 12px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+}
+.settings-form fieldset {
+  border: 1px solid #e3f2fd;
+  border-radius: 8px;
+  padding: 10px 14px 10px 14px;
+  background: #f7fafc;
+}
+.settings-form legend {
+  font-weight: 600;
+  color: #1976d2;
+}
